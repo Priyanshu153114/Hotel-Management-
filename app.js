@@ -5,7 +5,7 @@ const navbar = document.querySelector(".navbar");
 hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");
     navbar.classList.toggle("active");
-})
+});
 
 $(document).ready(function () {
     $("#btnSubmit").click(function (e) {
